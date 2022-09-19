@@ -1,14 +1,15 @@
 
+
+## Result Video Preview:
+
+[astitest.webm](https://user-images.githubusercontent.com/15105301/190991691-f8c5eafd-e192-4634-a83b-a29e231f72cb.webm)
+
 ## Instructions:
 
 [Frontend Access Test.pdf](https://github.com/RubenIgle/asti-mobile-test/files/9597832/Frontend.Access.Test.pdf)
 ![View 1](https://user-images.githubusercontent.com/15105301/190992040-6908a911-cb9f-4e9e-90bb-356665bf891f.png)
 ![View 2](https://user-images.githubusercontent.com/15105301/190992072-b9d4852d-445a-4ad4-acef-c472b1a3813a.png)
 
-
-## Result Video Preview:
-
-[astitest.webm](https://user-images.githubusercontent.com/15105301/190991691-f8c5eafd-e192-4634-a83b-a29e231f72cb.webm)
 
 
 # AstiMobileTest
