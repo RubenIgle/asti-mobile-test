@@ -20,3 +20,5 @@ import { IonicModule } from '@ionic/angular';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+//Author: Rubén Iglesias

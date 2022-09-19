@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class SelectComponent implements OnInit {
+
   options=['Custom Dropdown Test','Second Dropdown option', 'Third Dropdown option', 'Another One', 'But not less important', 'The latest option in the dropdown'];
   currentValue=''
   clickedSelect=false
+
   constructor() { }
 
   ngOnInit(): void {
@@ -27,3 +29,5 @@ export class SelectComponent implements OnInit {
   }
 
 }
+
+//Author: Rubén Iglesias
