@@ -1,0 +1,13 @@
+#laptop-image{
+    position:absolute;
+    width: 65%;
+    right:0;
+    margin:2%;
+    height: 80%;
+    border-radius: 4px;
+}
+.main-container{
+    width: 100%;
+    height: 100%;
+    background: #F5F5F5
+}

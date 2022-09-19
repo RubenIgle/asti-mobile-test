@@ -1,0 +1,38 @@
+
+<div class="dropdown-element">
+    <div class="dropdown-element-container">
+        <div class="heading-text">Custom Dropdown</div>
+        <div class="content">
+            <div class="select-container">
+                <div class="dropdown">
+                    <button class="dropbtn" (click)="clickSelect()" [ngClass]="{'dropbtn-clicked':clickedSelect==true}">
+                        <div class="placeholder">
+                            {{currentValue}}
+                        </div>       
+                        <div class="arrow">
+                            <div class="arrow-container">
+                                <img *ngIf="clickedSelect" class="chevron" src="./../../assets/chevron.svg">
+                                <img *ngIf="!clickedSelect" class="chevron-flipped" src="./../../assets/chevron.svg">
+                            </div>
+                        </div>
+                    </button>
+                    
+                    <div class="dropdown-content" *ngIf="clickedSelect" >
+                        <div *ngFor="let o of options">
+                        <a [ngClass]="{'checkmark':o==currentValue}" class="option" >
+                            <div class="option-data" (click)="selectOption(o)">
+                            <div class="option-name">{{ o }} </div><div *ngIf="o==currentValue"> <img class="check-img" src="./../../assets/check.svg" /></div>
+                        </div></a>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="hint-text">This is a design example!!!</div>
+            
+        </div>
+        <div class="selected-text">
+           Selected: {{currentValue}}
+        </div>
+    </div>
+</div>

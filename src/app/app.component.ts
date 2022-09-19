@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'asti-mobile-test';
+  getBackground(){
+    return "url(./assets/background.png)"
+  }
 }
+
+

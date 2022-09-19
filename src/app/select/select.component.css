@@ -1,0 +1,147 @@
+.dropdown-element{
+    font-family: 'ABBvoice_Rg';
+    background: white;
+    width:60%;
+    height:27%;
+    min-height: fit-content;
+    border-radius:4px;
+    margin-left:20px;
+    position: absolute;
+    top: 40%;
+    left: -20%
+}
+
+.dropdown-element-container{
+    padding-left: 4%;
+    padding-top: 4%;
+    background: white;
+    border-radius: 4px;
+    
+}
+
+.heading-text{
+    color:#1F1F1F;
+    font-size:20px ;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.hint-text{
+    color:#686868;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.select-container{
+    width: 60%;
+    height:40px;
+    border-right: 2px solid #969595;
+}
+
+.selected-text{
+    font-size: 14px;
+    color: #1F1F1F;
+    padding-bottom: 7%;
+    padding-top: 4%;
+    font-weight: bold;
+}
+
+.content{
+    display: inline-flex;
+    width: 100%;
+}
+
+.dropbtn {
+    background-color: white;
+    color: #1F1F1F;
+    margin-right: 15px;
+    border: 2px solid #DBDBDB;
+    width: 95%;
+    border-radius: 4px;
+    display: inline-flex
+}
+
+.dropbtn-clicked{
+    border: 2px solid #3366FF;
+
+}
+
+.arrow-container{
+    margin-top: 10%
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width:100%
+}
+
+.option{
+    display: inline-flex;
+    width: 100%;
+    height:70%
+}
+
+.option-data{
+    display: inline-flex; 
+    width: 100%;
+}
+
+.option-name{
+    width:90%
+}
+
+.check-img{
+    vertical-align: middle;
+    width: 70%;
+}
+
+.chevron-flipped{
+    margin-top: 50%; 
+    transform: scaleY(-1); 
+    filter: invert(13%) sepia(64%) saturate(0%) hue-rotate(261deg) brightness(97%) contrast(85%);
+}
+
+.chevron{ 
+    transform: rotateY(180deg); 
+    margin-top: 40%; 
+    
+}
+
+.arrow{
+    width:10px; 
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.checkmark{
+    background-color: #3366FF;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 95%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size:14px;
+    color:#1F1F1F;
+    border-radius: 4px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1% 2%;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown .dropdown-content {
+    display: block;
+}
+
+.placeholder{
+    margin-top: 1%;
+}
